@@ -10,19 +10,16 @@ export default class Habilidades extends Component {
             <div className="item-habilidades">
                 <HabilidadesH5>HTML</HabilidadesH5>
                 <LineaHabilidades >
-                    <SpanHabilidades width={porcentajes[0]} />
                 </LineaHabilidades>
             </div>
             <div className="item-habilidades">
                 <HabilidadesH5>CSS</HabilidadesH5>
                 <LineaHabilidades>
-                    <SkillsSpan width={porcentajes[1]} />
                 </LineaHabilidades>
             </div>
             <div className="item-habilidades">
                 <HabilidadesH5>JavaScript</HabilidadesH5>
                 <LineaHabilidades>
-                    <SkillsSpan width={porcentajes[2]} />
                 </LineaHabilidades>
             </div>
         </ContenidoHabilidades>

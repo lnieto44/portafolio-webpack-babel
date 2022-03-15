@@ -7,13 +7,14 @@ class Container extends Component {
     
     render() {
         return (
-            <>
-                <Acerca_mi />
-            <>
-                <Educacion />
-                <Habilidades/>
-            </>
-        </>
+            <div>
+            <Acerca_mi/>
+            <div>
+            <Educacion/>
+            </div>
+            <Habilidades/>
+        
+        </div>
         );
     }
 }

@@ -178,12 +178,12 @@ export const LineaHabilidades = styled.div`
     background: #448AFF;
 `;
 
-export const move = keyframes`
+/*  export const move = keyframes`
     0% { background-position: 0 0; }
     100% { background-position: 50px 50px; }
-`;
+`; */
 
-export const SpanHabilidades = styled.span`
+/* export const SpanHabilidades = styled.span`
     display: block;
     height: 100%;
     width: ${props => props.width}%;
@@ -202,9 +202,9 @@ export const SpanHabilidades = styled.span`
     background-image: linear-gradient(-45deg, rgba(255,255,255,0.2) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, transparent 75%, transparent);
     z-index: 1;
     background-size: 50px 50px;
-    animation: ${move} 4s linear infinite;
+    animation: 4s linear infinite;
     overflow: hidden;
   }
-`;
+`; */
 
-export const porcentajes = [70,80,30,48,60];
+//export const porcentajes = [70,80,30,48,60]; 
